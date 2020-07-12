@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientInitController">
+    <stylesheets>
+        <URL value="@clientinit.css" />
+    </stylesheets>
+   <children>
+      <VBox layoutX="381.0" layoutY="6.0" prefHeight="387.0" prefWidth="197.0" spacing="20.0">
+         <children>
+            <Button fx:id="connect" mnemonicParsing="false" onAction="#handleConnect" prefHeight="38.0" prefWidth="162.0" textFill="#030101">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="31.0" fitWidth="138.0">
+                     <image>
+                        <Image url="@../BinaryContent/connect.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="play" mnemonicParsing="false" onAction="#handlePlay" prefHeight="38.0" prefWidth="162.0" text="Play" textFill="#0d0606">
+               <font>
+                  <Font size="17.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="36.0">
+                     <image>
+                        <Image url="@../BinaryContent/player_play.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="configure" mnemonicParsing="false" onAction="#handleConfigure" prefHeight="38.0" prefWidth="162.0" text="Configure" textFill="#0d0606">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="37.0">
+                     <image>
+                        <Image url="@../BinaryContent/configure.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="fileTransfer" mnemonicParsing="false" onAction="#handleFileTransfer" prefHeight="38.0" prefWidth="162.0" text="File Transfer" textFill="#0a0404">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="28.0" fitWidth="33.0">
+                     <image>
+                        <Image url="@../BinaryContent/file_trans.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="about" mnemonicParsing="false" onAction="#handleAbout" prefHeight="38.0" prefWidth="162.0" text="About" textFill="#0d0505">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="22.0" fitWidth="24.0">
+                     <image>
+                        <Image url="@../BinaryContent/about.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#handleExit" prefHeight="38.0" prefWidth="162.0" text="Exit" textFill="#170808">
+               <font>
+                  <Font size="15.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="28.0">
+                     <image>
+                        <Image url="@../BinaryContent/exit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" top="35.0" />
+         </padding></VBox>
+      <Label layoutX="117.0" layoutY="1.0" prefHeight="38.0" prefWidth="157.0" text="Client" textFill="#380b0b">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <padding>
+            <Insets left="40.0" />
+         </padding>
+      </Label>
+      <TextArea fx:id="textArea" layoutX="21.0" layoutY="39.0" prefHeight="157.0" prefWidth="363.0" />
+      <ImageView fitHeight="38.0" fitWidth="47.0" layoutX="70.0" layoutY="1.0">
+         <image>
+            <Image url="@../BinaryContent/logo.png" />
+         </image>
+      </ImageView>
+   </children>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</AnchorPane>

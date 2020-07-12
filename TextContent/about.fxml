@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="257.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="11.0" layoutY="14.0" prefHeight="102.0" prefWidth="394.0" text=" Remote PC">
+         <graphic>
+            <ImageView fitHeight="95.0" fitWidth="156.0">
+               <image>
+                  <Image url="@../BinaryContent/remote.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Text layoutX="24.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Developed by Mahbub" wrappingWidth="345.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Version 1.0" wrappingWidth="345.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="24.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email : mahbubhr@gmail.com" wrappingWidth="345.13671875">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

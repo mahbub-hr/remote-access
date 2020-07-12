@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="170.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.ServerPopController">
+   <children>
+      <CheckBox fx:id="checkBox" layoutX="14.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleCheckBox" prefHeight="17.0" prefWidth="200.0" text="Don't Show this again " />
+      <Label layoutX="27.0" layoutY="14.0" prefHeight="17.0" prefWidth="266.0" text="Please Configure Server" />
+      <Label layoutX="27.0" layoutY="53.0" prefHeight="24.0" prefWidth="39.0" text="IP" />
+      <Label layoutX="28.0" layoutY="85.0" prefHeight="24.0" prefWidth="39.0" text="Port" />
+      <TextField fx:id="sereverIP" layoutX="114.0" layoutY="53.0" text="172.20.53.6" />
+      <TextField fx:id="serverPort" layoutX="114.0" layoutY="85.0" text="3333" />
+      <Button fx:id="ok" layoutX="126.0" layoutY="116.0" mnemonicParsing="false" onAction="#handleOk" prefHeight="30.0" prefWidth="40.0" text="ok">
+         <graphic>
+            <ImageView fitHeight="13.0" fitWidth="32.0">
+               <image>
+                  <Image url="@../BinaryContent/ok.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="later" layoutX="201.0" layoutY="116.0" mnemonicParsing="false" onAction="#handleLater" prefHeight="30.0" prefWidth="62.0" text="Later" />
+   </children>
+</AnchorPane>
