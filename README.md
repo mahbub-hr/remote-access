@@ -1,6 +1,6 @@
-# ruds
-remote udp desktop software that features both server and client
-This is udp based remote desktop software implemented in Java 8.
+# Remote Access
+Remote udp desktop software that features both server and client. User can access and control their remote computer using this software.
+This software is implemented in Java 8 using UDP Socket API.
 
 Usage:
 
